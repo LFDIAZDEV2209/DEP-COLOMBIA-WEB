@@ -1,33 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antioquia</title>
+    <title>Antioquia - Colombia</title>
     <link rel="stylesheet" href="CSS/styles-dep.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap">
 </head>
 <body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Departamento de Antioquia</h1>
+            <p>Descubre su riqueza cultural, gastronómica y natural.</p>
+            <a href="index.html" class="btn">Regresar al mapa</a>
+        </div>
+    </header>
+
     <div class="container">
-        <h1>Antioquia</h1>
-        <img src="img/antioquia.png" alt="Mapa del atlantico">
-        <h2>Sitios turisticos Antioquia</h2>
-        <ul>
-            <li>Piedra del Peñol</li>
-            <li>Guatapé</li>
-            <li>Santa Fe de Antioquia</li>
-            <li>Parque Arví</li>
-            <li>Comuna 13 (Medellín)</li>
-        </ul>        
-        <h2>Platos tipicos</h2>
-        <ul>
-            <li>Bandeja paisa</li>
-            <li>Sancocho antioqueño</li>
-            <li>Ajiaco santafereño</li>
-            <li>Lechona tolimense</li>
-            <li>Arepa antioqueña</li>
-        </ul>
-        <h2>Sector economico</h2>
-        <p>El sector economico de Antioquia se basa en la mineria, la agricultura y el turismo.</p>
+        <section class="section" id="sites-section">
+            <h2 class="section-title">Sitios Turísticos</h2>
+            <div class="sites">
+                <div class="sites-content">
+                    <div class="sites-list">
+                        <div class="site-card">
+                            <h3>Piedra del Peñol</h3>
+                            <p>Monolito de 220 metros de altura con vista panorámica espectacular.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Guatapé</h3>
+                            <p>Pueblo colorido conocido por sus zócalos y hermoso embalse.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Santa Fe de Antioquia</h3>
+                            <p>Ciudad colonial con arquitectura bien conservada y clima cálido.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Parque Arví</h3>
+                            <p>Reserva natural con senderos ecológicos y actividades al aire libre.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Comuna 13 (Medellín)</h3>
+                            <p>Ejemplo de transformación social con grafitis y escaleras eléctricas.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/antioquia.png" alt="Sitios turísticos de Antioquia" class="sites-image">
+            </div>
+        </section>
+
+        <section class="section" id="food-section">
+            <h2 class="section-title">Platos Típicos</h2>
+            <div class="food-section">
+                <div class="food-grid">
+                    <div class="food-item">
+                        <h3>Bandeja paisa</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Sancocho antioqueño</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Ajiaco santafereño</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Lechona tolimense</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Arepa antioqueña</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="economy-section">
+            <h2 class="section-title">Sector Económico</h2>
+            <div class="economy-section">
+                <div class="economy-content">
+                    <p>El sector económico de Antioquia se basa principalmente en tres pilares fundamentales:</p>
+                    <div class="economy-grid">
+                        <div class="economy-card">
+                            <div class="economy-icon">⛏️</div>
+                            <h3>Minería</h3>
+                            <p>Extracción de oro, carbón y otros minerales que contribuyen a la economía nacional.</p>
+                        </div>
+                        <div class="economy-card">
+                            <div class="economy-icon">🌱</div>
+                            <h3>Agricultura</h3>
+                            <p>Cultivos de café, plátano, flores y frutas que abastecen mercados locales e internacionales.</p>
+                        </div>
+                        <div class="economy-card">
+                            <div class="economy-icon">🏙️</div>
+                            <h3>Turismo</h3>
+                            <p>Sector en crecimiento que atrae visitantes a sus ciudades, pueblos y paisajes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+
+    <footer>
+        <p>&copy; 2023 Departamento de Antioquia - Colombia</p>
+        <p><a href="index.html">Regresar al mapa</a></p>
+    </footer>
 </body>
 </html>

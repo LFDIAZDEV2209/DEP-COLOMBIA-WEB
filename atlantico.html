@@ -1,44 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlantico</title>
+    <title>Atlántico - Colombia</title>
     <link rel="stylesheet" href="CSS/styles-dep.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap">
 </head>
 <body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Departamento del Atlántico</h1>
+            <p>Descubre su riqueza cultural, gastronómica y natural.</p>
+            <a href="index.html" class="btn">Regresar al mapa</a>
+        </div>
+    </header>
+
     <div class="container">
-        <nav class="navbar">
-            <a href="mapa.html" class="btn-back">Regresar al mapa</a>
-        </nav>
-    
-        <!-- Hero Section -->
-        <header class="hero">
-            <div class="hero-content">
-                <h1>Departamento del Atlántico</h1>
-                <p>Descubre su riqueza cultural, gastronómica y natural.</p>
+        <section class="section" id="sites-section">
+            <h2 class="section-title">Sitios Turísticos</h2>
+            <div class="sites">
+                <div class="sites-content">
+                    <div class="sites-list">
+                        <div class="site-card">
+                            <h3>Parque Isla Salamanca</h3>
+                            <p>Reserva natural con una gran diversidad de flora y fauna, ideal para los amantes de la naturaleza.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Playa de Puerto Colombia</h3>
+                            <p>Hermosas playas con aguas cálidas del mar Caribe, perfectas para disfrutar del sol y la brisa marina.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Parque Nacional Natural Tayrona</h3>
+                            <p>Uno de los parques más importantes de Colombia, con playas paradisíacas y selva tropical.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Parque Nacional Natural Sierra Nevada</h3>
+                            <p>Hogar de comunidades indígenas y ecosistemas diversos, desde playas hasta nieves perpetuas.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Parque Nacional Natural Corales del Rosario</h3>
+                            <p>Arrecifes de coral, aguas cristalinas y una increíble biodiversidad marina para explorar.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/sitioAtlantico.jpg" alt="Sitio turístico del Atlántico" class="sites-image">
             </div>
-        </header>
-        
-        <h2>Sitios turisticos</h2>
-        <ul>
-            <li>Parque Isla Salamanca</li>
-            <li>Playa de Puerto Colombia</li>
-            <li>Parque Nacional Natural Tayrona</li>
-            <li>Parque Nacional Natural Sierra Nevada</li>
-            <li>Parque Nacional Natural Corales del Rosario</li>
-        </ul>
-        <h2>Platos tipicos</h2>
-        <ul>
-            <li>Arroz de lisa</li>
-            <li>Arroz de camarones</li>
-            <li>Arroz de cangrejo</li>
-            <li>Arroz de mariscos</li>
-            <li>Arroz de pescado</li>
-        </ul>
-        <h2>Sector economico</h2>
-        <p>El sector economico del Atlantico se basa en la agricultura, la pesca y el turismo.</p>
+        </section>
+
+        <section class="section" id="food-section">
+            <h2 class="section-title">Platos Típicos</h2>
+            <div class="food-section">
+                <div class="food-grid">
+                    <div class="food-item">
+                        <h3>Arroz de Lisa</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Arroz de Camarones</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Arroz de Cangrejo</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Arroz de Mariscos</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Arroz de Pescado</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="economy-section">
+            <h2 class="section-title">Sector Económico</h2>
+            <div class="economy-section">
+                <div class="economy-content">
+                    <p>El sector económico del Atlántico se basa principalmente en tres pilares fundamentales que impulsan el desarrollo de la región:</p>
+                    <div class="economy-grid">
+                        <div class="economy-card">
+                            <div class="economy-icon">🌾</div>
+                            <h3>Agricultura</h3>
+                            <p>Cultivos de yuca, maíz, plátano y frutas tropicales que abastecen mercados locales y nacionales.</p>
+                        </div>
+                        <div class="economy-card">
+                            <div class="economy-icon">🐟</div>
+                            <h3>Pesca</h3>
+                            <p>Actividad tradicional que aprovecha la riqueza del mar Caribe, generando empleo y alimento para la región.</p>
+                        </div>
+                        <div class="economy-card">
+                            <div class="economy-icon">🏖️</div>
+                            <h3>Turismo</h3>
+                            <p>Sector en crecimiento que atrae visitantes nacionales e internacionales a sus playas y atractivos culturales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-    
+
+    <footer>
+        <p>&copy; 2023 Departamento del Atlántico - Colombia</p>
+        <p><a href="index.html">Regresar al mapa</a></p>
+    </footer>
 </body>
 </html>

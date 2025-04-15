@@ -1,34 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cesar</title>
-    <!-- LINK CSS -->
+    <title>Cesar - Colombia</title>
     <link rel="stylesheet" href="CSS/styles-dep.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap">
 </head>
 <body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Departamento del Cesar</h1>
+            <p>Descubre su riqueza cultural, gastronómica y natural.</p>
+            <a href="index.html" class="btn">Regresar al mapa</a>
+        </div>
+    </header>
+
     <div class="container">
-        <h1>Cesar</h1>
-        <img src="img/cesar.png" alt="Mapa del cesar">
-        <h2>Sitios turisticos Cesar</h2>
-        <ul>
-            <li>Balneario Hurtado</li>
-            <li>Parque de la Leyenda Vallenata</li>
-            <li>La Mina de Valledupar</li>
-            <li>Reserva Natural Serranía del Perijá</li>
-            <li>El Río Badillo</li>
-        </ul>
-        <h2>Platos tipicos</h2>
-        <ul>
-            <li>Arroz de cebolla</li>
-            <li>Arroz de maiz</li>
-            <li>Arroz de yuca</li>
-            <li>Arroz de pescado</li>
-            <li>Arroz de mariscos</li>
-        </ul>
-        <h2>Sector economico</h2>
-        <p>El sector economico del Cesar se basa en la agricultura, la ganaderia y el turismo.</p>        
+        <section class="section" id="sites-section">
+            <h2 class="section-title">Sitios Turísticos</h2>
+            <div class="sites">
+                <div class="sites-content">
+                    <div class="sites-list">
+                        <div class="site-card">
+                            <h3>Balneario Hurtado</h3>
+                            <p>Área recreativa con piscinas naturales en el río Guatapurí.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Parque de la Leyenda Vallenata</h3>
+                            <p>Homenaje a la música vallenata y sus exponentes más importantes.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>La Mina de Valledupar</h3>
+                            <p>Antigua mina de cobre convertida en atractivo turístico.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Reserva Natural Serranía del Perijá</h3>
+                            <p>Ecosistema único con gran biodiversidad y paisajes impresionantes.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>El Río Badillo</h3>
+                            <p>Destino ideal para disfrutar de aguas cristalinas y naturaleza.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/cesar.png" alt="Sitios turísticos del Cesar" class="sites-image">
+            </div>
+        </section>
+
+        <section class="section" id="food-section">
+            <h2 class="section-title">Platos Típicos</h2>
+            <div class="food-section">
+                <div class="food-grid">
+                    <div class="food-item">
+                        <h3>Arroz de cebolla</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Arroz de maíz</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Arroz de yuca</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Arroz de pescado</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Arroz de mariscos</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="economy-section">
+            <h2 class="section-title">Sector Económico</h2>
+            <div class="economy-section">
+                <div class="economy-content">
+                    <p>El sector económico del Cesar se basa principalmente en tres pilares fundamentales:</p>
+                    <div class="economy-grid">
+                        <div class="economy-card">
+                            <div class="economy-icon">🌾</div>
+                            <h3>Agricultura</h3>
+                            <p>Cultivos de arroz, algodón, palma africana y otros productos agrícolas.</p>
+                        </div>
+                        <div class="economy-card">
+                            <div class="economy-icon">🐄</div>
+                            <h3>Ganadería</h3>
+                            <p>Cría de bovinos que contribuye a la producción de carne y leche.</p>
+                        </div>
+                        <div class="economy-card">
+                            <div class="economy-icon">🎵</div>
+                            <h3>Turismo</h3>
+                            <p>Atractivos naturales y festivales como el Vallenato atraen visitantes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+
+    <footer>
+        <p>&copy; 2023 Departamento del Cesar - Colombia</p>
+        <p><a href="index.html">Regresar al mapa</a></p>
+    </footer>
 </body>
 </html>

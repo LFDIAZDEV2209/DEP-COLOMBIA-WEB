@@ -1,34 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cundinamarca</title>
+    <title>Cundinamarca - Colombia</title>
     <link rel="stylesheet" href="CSS/styles-dep.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap">
 </head>
 <body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Departamento de Cundinamarca</h1>
+            <p>Descubre su riqueza cultural, gastronómica y natural.</p>
+            <a href="index.html" class="btn">Regresar al mapa</a>
+        </div>
+    </header>
+
     <div class="container">
-        <h1>Cundinamarca</h1>
-        <img src="img/cundinamarca.png" alt="Mapa de Cundinamarca">
-        <h2>Sitios turisticos Cundinamarca</h2>
-        <ul>
-            <li>Parque Jaime Duque</li>
-            <li>Salto de Tequendama</li>
-            <li>Parque Chicaque</li>
-            <li>Parque Natural Chingaza</li>
-            <li>Parque Natural Sumapaz</li>
-        </ul>
-        <h2>Platos tipicos</h2>
-        <ul>
-            <li>Ajiaco cundinamarques</li>
-            <li>Lechona tolimense</li>
-            <li>Changua</li>
-            <li>Trucha frita</li>
-            <li>Chicha de maiz</li>
-        </ul>
-        <h2>Sector economico</h2>
-        <p>El sector economico de Cundinamarca se basa en la agricultura, la ganaderia y el turismo.</p>
+        <section class="section" id="sites-section">
+            <h2 class="section-title">Sitios Turísticos</h2>
+            <div class="sites">
+                <div class="sites-content">
+                    <div class="sites-list">
+                        <div class="site-card">
+                            <h3>Parque Jaime Duque</h3>
+                            <p>Parque temático con atracciones culturales y recreativas.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Salto de Tequendama</h3>
+                            <p>Impresionante cascada de 157 metros de altura.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Parque Chicaque</h3>
+                            <p>Reserva natural con senderos ecológicos y canopy.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Parque Natural Chingaza</h3>
+                            <p>Ecosistema de páramo que provee agua a Bogotá.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Parque Natural Sumapaz</h3>
+                            <p>El páramo más grande del mundo con paisajes únicos.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/cundinamarca.png" alt="Sitios turísticos de Cundinamarca" class="sites-image">
+            </div>
+        </section>
+
+        <section class="section" id="food-section">
+            <h2 class="section-title">Platos Típicos</h2>
+            <div class="food-section">
+                <div class="food-grid">
+                    <div class="food-item">
+                        <h3>Ajiaco cundinamarqués</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Lechona tolimense</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Changua</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Trucha frita</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Chicha de maíz</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="economy-section">
+            <h2 class="section-title">Sector Económico</h2>
+            <div class="economy-section">
+                <div class="economy-content">
+                    <p>El sector económico de Cundinamarca se basa principalmente en tres pilares fundamentales:</p>
+                    <div class="economy-grid">
+                        <div class="economy-card">
+                            <div class="economy-icon">🌱</div>
+                            <h3>Agricultura</h3>
+                            <p>Cultivos de papa, flores, frutas y hortalizas para mercados nacionales.</p>
+                        </div>
+                        <div class="economy-card">
+                            <div class="economy-icon">🐄</div>
+                            <h3>Ganadería</h3>
+                            <p>Producción lechera y de carne que abastece a la capital.</p>
+                        </div>
+                        <div class="economy-card">
+                            <div class="economy-icon">🏞️</div>
+                            <h3>Turismo</h3>
+                            <p>Atractivos naturales y cercanía a Bogotá impulsan el sector.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-    
+
+    <footer>
+        <p>&copy; 2023 Departamento de Cundinamarca - Colombia</p>
+        <p><a href="index.html">Regresar al mapa</a></p>
+    </footer>
 </body>
 </html>

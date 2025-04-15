@@ -1,34 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santander</title>
+    <title>Santander - Colombia</title>
     <link rel="stylesheet" href="CSS/styles-dep.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap">
 </head>
 <body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Departamento de Santander</h1>
+            <p>Descubre su riqueza cultural, gastronómica y natural.</p>
+            <a href="index.html" class="btn">Regresar al mapa</a>
+        </div>
+    </header>
+
     <div class="container">
-        <h1>Santander</h1>
-        <img src="img/santander.png" alt="Mapa de Santander">
-        <h2>Sitios turisticos Santander</h2>
-        <ul>
-            <li>Parque Nacional del Chicamocha</li>
-            <li>Parque Nacional Natural Serranía de los Yariguíes</li>
-            <li>Parque Nacional Natural El Gallineral</li>
-            <li>Parque Nacional Natural Paramo de Santurban</li>
-            <li>Parque Nacional Natural Guane</li>
-        </ul>
-        <h2>Platos tipicos</h2>
-        <ul>
-            <li>Carne oreada</li>
-            <li>Lechona santandereana</li>
-            <li>Changua</li>
-            <li>Arepa santandereana</li>
-            <li>Mute santandereano</li>
-        </ul>
-        <h2>Sector economico</h2>
-        <p>El sector economico de Santander se basa en la agricultura, la ganaderia y el turismo.</p>
+        <section class="section" id="sites-section">
+            <h2 class="section-title">Sitios Turísticos</h2>
+            <div class="sites">
+                <div class="sites-content">
+                    <div class="sites-list">
+                        <div class="site-card">
+                            <h3>Parque Nacional del Chicamocha</h3>
+                            <p>Impresionante cañón con teleférico y atracciones turísticas.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Serranía de los Yariguíes</h3>
+                            <p>Reserva natural con biodiversidad única y paisajes espectaculares.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Parque El Gallineral</h3>
+                            <p>Bosque de árboles cubiertos de musgo junto al río Fonce.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Páramo de Santurbán</h3>
+                            <p>Ecosistema de páramo que provee agua a la región.</p>
+                        </div>
+                        <div class="site-card">
+                            <h3>Parque Nacional Natural Guane</h3>
+                            <p>Área protegida con vestigios arqueológicos y naturales.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/santander.png" alt="Sitios turísticos de Santander" class="sites-image">
+            </div>
+        </section>
+
+        <section class="section" id="food-section">
+            <h2 class="section-title">Platos Típicos</h2>
+            <div class="food-section">
+                <div class="food-grid">
+                    <div class="food-item">
+                        <h3>Carne oreada</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Lechona santandereana</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Changua</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Arepa santandereana</h3>
+                    </div>
+                    <div class="food-item">
+                        <h3>Mute santandereano</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="economy-section">
+            <h2 class="section-title">Sector Económico</h2>
+            <div class="economy-section">
+                <div class="economy-content">
+                    <p>El sector económico de Santander se basa principalmente en tres pilares fundamentales:</p>
+                    <div class="economy-grid">
+                        <div class="economy-card">
+                            <div class="economy-icon">🌱</div>
+                            <h3>Agricultura</h3>
+                            <p>Cultivos de café, cacao, tabaco y frutas como la guayaba.</p>
+                        </div>
+                        <div class="economy-card">
+                            <div class="economy-icon">🐄</div>
+                            <h3>Ganadería</h3>
+                            <p>Producción de carne y leche para mercados regionales.</p>
+                        </div>
+                        <div class="economy-card">
+                            <div class="economy-icon">🏞️</div>
+                            <h3>Turismo</h3>
+                            <p>Atractivos naturales y aventura atraen visitantes nacionales e internacionales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-    
+
+    <footer>
+        <p>&copy; 2023 Departamento de Santander - Colombia</p>
+        <p><a href="index.html">Regresar al mapa</a></p>
+    </footer>
 </body>
 </html>
